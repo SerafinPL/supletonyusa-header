@@ -6,7 +6,7 @@ Visual modification of the website header in the customer PrestaShop theme.
 
 ## Screenshots
 
-![Before View](supletonyusa-header/Read.me)
+![Before View](https://github.com/SerafinPL/supletonyusa-header/Read.me)
 
 
 ## About 
