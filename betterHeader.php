@@ -17,18 +17,21 @@
     <div class="container">
       <div class="row">
 
-        <!-- Desktop Section -->
+        <!-- To REMOVE
+        {<!-- Desktop Section -->}
         <div class="hidden-sm-down">
-          <!-- EMPTY -->
+          { <!-- EMPTY --> }
           <div class="col-md-5 col-xs-12">
             {hook h='displayNav1'}
           </div>
-          <!-- Upper Menu -->
+          {<!-- Upper Menu -->}
           <div class="col-md-7 right-nav">
             {hook h='displayNav2'}
           </div>
         </div>
+        -->
 
+        
         <!-- Mobile Section -->
         <div class="hidden-md-up text-sm-center mobile">
           <div class="float-xs-left" id="menu-icon">
@@ -39,6 +42,7 @@
           <div class="top-logo" id="_mobile_logo"></div>
           <div class="clearfix"></div>
         </div>
+
 
       </div>
     </div>
@@ -60,8 +64,11 @@
           {/if}
           {/if}
         </div>
-        <div class="header-top-right col-md-10 col-sm-12 position-static">
+        <div class="header-top-right col-md-6 col-sm-12 position-static">
           {hook h='displayTop'}
+        </div>
+        <div class="col-md-4 right-nav">
+          {hook h='displayNav2'}
         </div>
       </div>
 
