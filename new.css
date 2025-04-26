@@ -1,0 +1,7 @@
+@media (min-width: 992px) {
+
+    div.header-top-right.position-static {
+        width: auto;
+
+    }
+}
