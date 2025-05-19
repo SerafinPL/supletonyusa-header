@@ -1,10 +1,9 @@
 {**
-* Copyright since 2007 PrestaShop SA and Contributors
-* PrestaShop is an International Registered Trademark & Property of PrestaShop SA
+++
 
 * @author KubaKoder / Jakub Grzegorzek <poczta@kubakoder.pl>
   * @copyright Since 2025 KubaKoder / Jakub Grzegorzek
-  * @license https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
+
   *}
   {block name='header_banner'}
   <div class="header-banner">
@@ -17,21 +16,17 @@
     <div class="container">
       <div class="row">
 
-        <!-- To REMOVE
-        {<!-- Desktop Section -->}
-        <div class="hidden-sm-down">
-          { <!-- EMPTY --> }
+
+        <div class="hidden-sm-up">
           <div class="col-md-5 col-xs-12">
             {hook h='displayNav1'}
           </div>
-          {<!-- Upper Menu -->}
           <div class="col-md-7 right-nav">
             {hook h='displayNav2'}
           </div>
         </div>
-        -->
 
-        
+
         <!-- Mobile Section -->
         <div class="hidden-md-up text-sm-center mobile">
           <div class="float-xs-left" id="menu-icon">
@@ -42,7 +37,7 @@
           <div class="top-logo" id="_mobile_logo"></div>
           <div class="clearfix"></div>
         </div>
-
+        <!-- ENDOF Mobile Section -->
 
       </div>
     </div>
@@ -67,7 +62,8 @@
         <div class="header-top-right col-md-6 col-sm-12 position-static">
           {hook h='displayTop'}
         </div>
-        <div class="col-md-4 right-nav">
+
+        <div class="col-md-7 right-nav">
           {hook h='displayNav2'}
         </div>
       </div>
@@ -82,6 +78,10 @@
           <div id="_mobile_contact_link"></div>
         </div>
       </div>
+
+      <!-- ENDOF Mobile Section -->
+
+
     </div>
   </div>
   {hook h='displayNavFullWidth'}
