@@ -16,10 +16,6 @@
     <div class="container">
       <div class="row">
 
-
-
-
-
         <!-- Mobile Section -->
         <div class="hidden-md-up text-sm-center mobile">
           <div class="float-xs-left" id="menu-icon">
