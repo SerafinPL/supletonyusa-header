@@ -155,13 +155,12 @@ div.subcategory-image {
         align-items: center;
     }
 
-    div.header-top div.row>div.right-nav div.user-info {
+    div.header-top div.row>div.right-nav div.user-info{
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
-
     div.header-top div.row>div.right-nav div.user-info a {
         display: flex;
         flex-direction: row;
@@ -171,10 +170,10 @@ div.subcategory-image {
 
     }
 
-    div.header-top div.row>div.right-nav div.user-info>a.account span.hidden-sm-down {
+    div.header-top div.row>div.right-nav div.user-info > a.account span.hidden-sm-down {
         text-overflow: ellipsis;
     }
-
+    
 
     div.header-top div.row>div.right-nav div.header {
         display: flex;
@@ -183,14 +182,14 @@ div.subcategory-image {
         justify-content: flex-start;
     }
 
-    div.header-top div.row>div.right-nav div.header a {
+    div.header-top div.row>div.right-nav div.header a{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
 
-
+    
 
 }
 
