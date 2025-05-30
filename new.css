@@ -5,6 +5,9 @@
 /* Ensure the dropdown menu is displayed vertically */
 /* Zmiana menu głównego na rozwijane pionowo */
 /* Ustawienie listy rozwijanej w menu głównym pionowo */
+/* Ustawienie opisu artykułu na całą szerokość */
+/* Ustawienie jednego górnego paska ze wszystkimi funkcjonalościami */
+
 /*
  * Custom code goes here.
  * A template should always ship with an empty custom.css
@@ -152,12 +155,13 @@ div.subcategory-image {
         align-items: center;
     }
 
-    div.header-top div.row>div.right-nav div.user-info{
+    div.header-top div.row>div.right-nav div.user-info {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
+
     div.header-top div.row>div.right-nav div.user-info a {
         display: flex;
         flex-direction: row;
@@ -167,10 +171,10 @@ div.subcategory-image {
 
     }
 
-    div.header-top div.row>div.right-nav div.user-info > a.account span.hidden-sm-down {
+    div.header-top div.row>div.right-nav div.user-info>a.account span.hidden-sm-down {
         text-overflow: ellipsis;
     }
-    
+
 
     div.header-top div.row>div.right-nav div.header {
         display: flex;
@@ -179,14 +183,14 @@ div.subcategory-image {
         justify-content: flex-start;
     }
 
-    div.header-top div.row>div.right-nav div.header a{
+    div.header-top div.row>div.right-nav div.header a {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
 
-    
+
 
 }
 
