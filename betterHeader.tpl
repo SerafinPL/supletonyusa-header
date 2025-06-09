@@ -1,6 +1,4 @@
 {**
-++
-
 * @author KubaKoder / Jakub Grzegorzek <poczta@kubakoder.pl>
   * @copyright Since 2025 KubaKoder / Jakub Grzegorzek
 
