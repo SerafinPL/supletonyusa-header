@@ -6,7 +6,12 @@ Visual modification of the website header in the customer PrestaShop theme.
 
 ## Screenshots
 
+**Before Changes View**
+
 ![Before Changes View](/lookOut/BaseView.jpg)
+
+**After Changes View**
+
 ![After Changes View](/lookOut/AfterChangesView.jpg)
 
 
