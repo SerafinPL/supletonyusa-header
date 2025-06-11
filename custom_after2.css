@@ -1,0 +1,202 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+/* Ensure the dropdown menu is displayed vertically */
+/* Zmiana menu głównego na rozwijane pionowo */
+/* Ustawienie listy rozwijanej w menu głównym pionowo */
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+/** kolor fontów */
+
+#header .header-top a {
+    color: #000 !important;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+#header .header-top a:hover {
+    color: #026409 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+p,
+body,
+li:last-child,
+products,
+col-md-4,
+product-title a {
+    color: #000 !important;
+}
+
+
+/** Ustawienie pozycji menu jedna pod drugą */
+
+div.header-top>div.container div.js-top-menu>ul.top-menu>li.category>div.popover.sub-menu>ul.top-menu>li.category {
+    float: none !important;
+    text-align: left;
+}
+
+
+
+/** usunięcie bloków na zdjęcia kategorii */
+
+div.subcategory-image {
+    display: none;
+}
+
+
+/** kolor fonta w input szukajce */
+
+.header-top .search-widgets form input {
+    color: #000 !important;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    /** Zmiana menu głównego na rozwijane pionowo */
+
+    .dropdown-item {
+        element.style {
+            color: #000;
+            text-decoration: none;
+            background-color: #fff;
+        }
+
+    }
+
+    .popover {
+        padding: 0 !important;
+        display: block;
+        position: static;
+    }
+
+
+    #header .menu>ul>li {
+        position: relative !important;
+        display: block !important;
+        float: left !important;
+    }
+
+    .top-menu .popover ul {
+        display: inline-table;
+        position: absolute;
+        top: 100%;
+        /* Ustawia menu poniĹźej elementu relatywnego */
+        left: -4px;
+        /* Ustawia menu na lewo od elementu relatywnego */
+        max-width: 100%;
+        /* Ustawia maksymalnÄ szerokoĹÄ menu na 100% */
+        width: auto;
+        height: auto;
+        /* Ustawia wysokoĹÄ menu na automatycznÄ */
+        overflow: hidden;
+        /* Ukrywa nadmiar treĹci */
+        border-radius: 2em;
+        box-shadow: 0 2px 10px rgba(52, 155, 12, 0.699);
+        text-align: center;
+        /* Ustawia wyrĂłwnanie tekstu do Ĺrodka */
+        background-color: #fff;
+        /* Ustawia tĹo menu na biaĹy */
+        padding: 10px;
+        /* Dodaje odstÄp wewnÄtrzny, aby tekst byĹ wewnÄtrz bloku */
+        box-sizing: border-box;
+        /* UwzglÄdnia padding w szerokoĹci elementu */
+    }
+
+    .top-menu .popover ul::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+
+
+    /** Wyświetlanie bloku opisu produktu dla 768px */
+    div.row.product-container {
+        position: relative;
+    }
+
+    div.row.product-container div.tabs {
+        position: relative;
+        width: 100dvw;
+        left: -50dvw;
+        max-width: 1140px;
+    }
+
+    /** ukrycie napisów guzkiów w menu dla 768px */
+    div.header-top div.row>div.right-nav div.header span.hidden-sm-down {
+        display: none !important;
+    }
+
+}
+
+/** wyświetlanie bloku opisu produktu dla 992px */
+@media only screen and (min-width: 992px) {
+    div.header-top div.row>div.right-nav div.header span.hidden-sm-down {
+        display: block !important;
+    }
+
+    div.header-top div.row>div.right-nav {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    div.header-top div.row>div.right-nav div.user-info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    div.header-top div.row>div.right-nav div.user-info a {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        min-width: 131px;
+
+    }
+
+    div.header-top div.row>div.right-nav div.user-info > a.account span.hidden-sm-down {
+        text-overflow: ellipsis;
+    }
+    
+
+    div.header-top div.row>div.right-nav div.header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    div.header-top div.row>div.right-nav div.header a{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    
+
+}
+
+/** wyświetlanie bloku opisu produktu dla 1100px */
+@media only screen and (min-width: 1100px) {
+    div.row.product-container div.tabs {
+        position: relative;
+        width: 100dvw;
+        left: calc(0dvw - 520px - 1.875rem);
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
