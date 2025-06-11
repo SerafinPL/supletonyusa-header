@@ -47,8 +47,6 @@ div.header-top>div.container div.js-top-menu>ul.top-menu>li.category>div.popover
     text-align: left;
 }
 
-
-
 /** usunięcie bloków na zdjęcia kategorii */
 
 div.subcategory-image {
@@ -87,6 +85,12 @@ div.subcategory-image {
         position: relative !important;
         display: block !important;
         float: left !important;
+    }
+
+    #header .logo {
+        max-width: 89px;
+        height: 89px;
+        width: 89px;
     }
 
     .top-menu .popover ul {
@@ -155,12 +159,13 @@ div.subcategory-image {
         align-items: center;
     }
 
-    div.header-top div.row>div.right-nav div.user-info{
+    div.header-top div.row>div.right-nav div.user-info {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
+
     div.header-top div.row>div.right-nav div.user-info a {
         display: flex;
         flex-direction: row;
@@ -170,10 +175,10 @@ div.subcategory-image {
 
     }
 
-    div.header-top div.row>div.right-nav div.user-info > a.account span.hidden-sm-down {
+    div.header-top div.row>div.right-nav div.user-info>a.account span.hidden-sm-down {
         text-overflow: ellipsis;
     }
-    
+
 
     div.header-top div.row>div.right-nav div.header {
         display: flex;
@@ -182,15 +187,12 @@ div.subcategory-image {
         justify-content: flex-start;
     }
 
-    div.header-top div.row>div.right-nav div.header a{
+    div.header-top div.row>div.right-nav div.header a {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
-
-    
-
 }
 
 /** wyświetlanie bloku opisu produktu dla 1100px */
