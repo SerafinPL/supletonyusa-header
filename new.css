@@ -175,11 +175,11 @@ div.subcategory-image {
 
     }
 
-    div.header-top div.row>div.right-nav div.user-info a i {
+    div.header-top div.row>div.right-nav div.user-info a>i {
         margin-right: 5px;
     }
 
-    div.header-top div.row>div.right-nav div.user-info a i {
+    div.header-top div.row>div.right-nav div.user-info a>span {
         margin-top: 2px;
     }
 
@@ -188,18 +188,17 @@ div.subcategory-image {
     }
 
 
-    div.header-top div.row>div.right-nav div.header {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-    }
-
+    div.header-top div.row>div.right-nav div.header,
     div.header-top div.row>div.right-nav div.header a {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: flex-start;
+    }
+
+    div.header-top div.row>div.right-nav div.header i,
+    div.header-top div.row>div.right-nav div.header span {
+        margin-right: 3px;
     }
 }
 
