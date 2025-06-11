@@ -206,17 +206,16 @@ div.subcategory-image {
     /*** ENDOF Poprawki Dla Prawej części menu Login/Unlogin + chart **/
 }
 
-/** wyświetlanie bloku opisu produktu dla 992px */
+
 @media only screen and (min-width: 992px) {
+    /** wyświetlanie bloku opisu produktu dla 992px */
     div.header-top div.row>div.right-nav div.header span.hidden-sm-down {
         display: block !important;
-    }
-
-    
+    } 
 }
 
-/** wyświetlanie bloku opisu produktu dla 1100px */
 @media only screen and (min-width: 1100px) {
+    /** wyświetlanie bloku opisu produktu dla 1100px */
     div.row.product-container div.tabs {
         position: relative;
         width: 100dvw;
