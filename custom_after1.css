@@ -36,7 +36,6 @@ product-title a {
     color: #000 !important;
 }
 
-
 /** Ustawienie pozycji menu jedna pod drugą */
 
 div.header-top>div.container div.js-top-menu>ul.top-menu>li.category>div.popover.sub-menu>ul.top-menu>li.category {
@@ -44,21 +43,17 @@ div.header-top>div.container div.js-top-menu>ul.top-menu>li.category>div.popover
     text-align: left;
 }
 
-
-
 /** usunięcie bloków na zdjęcia kategorii */
 
 div.subcategory-image {
     display: none;
 }
 
-
 /** kolor fonta w input szukajce */
 
 .header-top .search-widgets form input {
     color: #000 !important;
 }
-
 
 @media only screen and (min-width: 768px) {
 
@@ -70,7 +65,6 @@ div.subcategory-image {
             text-decoration: none;
             background-color: #fff;
         }
-
     }
 
     .popover {
@@ -78,7 +72,6 @@ div.subcategory-image {
         display: block;
         position: static;
     }
-
 
     #header .menu>ul>li {
         position: relative !important;
@@ -118,8 +111,6 @@ div.subcategory-image {
         display: table;
     }
 
-
-
     /** Wyświetlanie bloku opisu produktu dla 768px */
     div.row.product-container {
         position: relative;
@@ -136,8 +127,6 @@ div.subcategory-image {
     div.header-top div.row>div.right-nav span.hidden-sm-down {
         display: none !important;
     }
-
-
 }
 
 /** wyświetlanie bloku opisu produktu dla 992px */

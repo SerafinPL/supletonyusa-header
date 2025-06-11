@@ -62,6 +62,12 @@ div.subcategory-image {
 
 
 @media only screen and (min-width: 768px) {
+        /*** Próba z search_icon */
+
+    #search_widget form i {
+        padding-left: 15px;
+        padding-top: 13px;
+    }
 
     /** Zmiana menu głównego na rozwijane pionowo */
 
@@ -86,6 +92,9 @@ div.subcategory-image {
         display: block !important;
         float: left !important;
     }
+
+        /*** Większe logo dla 768px */
+
 
     #header .logo {
         max-width: 89px;
@@ -119,13 +128,12 @@ div.subcategory-image {
         /* UwzglÄdnia padding w szerokoĹci elementu */
     }
 
+    /** Sub-menu na wielkość items  **/
     .top-menu .popover ul::after {
         content: "";
         clear: both;
         display: table;
     }
-
-
 
     /** Wyświetlanie bloku opisu produktu dla 768px */
     div.row.product-container {
@@ -144,13 +152,8 @@ div.subcategory-image {
         display: none !important;
     }
 
-}
 
-/** wyświetlanie bloku opisu produktu dla 992px */
-@media only screen and (min-width: 992px) {
-    div.header-top div.row>div.right-nav div.header span.hidden-sm-down {
-        display: block !important;
-    }
+    /*** Poprawki Dla Prawej części menu Login/Unlogin + chart **/
 
     div.header-top div.row>div.right-nav {
         display: flex;
@@ -187,7 +190,6 @@ div.subcategory-image {
         text-overflow: ellipsis;
     }
 
-
     div.header-top div.row>div.right-nav div.header,
     div.header-top div.row>div.right-nav div.header a {
         display: flex;
@@ -200,6 +202,17 @@ div.subcategory-image {
     div.header-top div.row>div.right-nav div.header span {
         margin-right: 3px;
     }
+
+    /*** ENDOF Poprawki Dla Prawej części menu Login/Unlogin + chart **/
+}
+
+/** wyświetlanie bloku opisu produktu dla 992px */
+@media only screen and (min-width: 992px) {
+    div.header-top div.row>div.right-nav div.header span.hidden-sm-down {
+        display: block !important;
+    }
+
+    
 }
 
 /** wyświetlanie bloku opisu produktu dla 1100px */
