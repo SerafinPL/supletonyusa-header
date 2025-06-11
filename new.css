@@ -175,6 +175,14 @@ div.subcategory-image {
 
     }
 
+    div.header-top div.row>div.right-nav div.user-info a i {
+        margin-right: 5px;
+    }
+
+    div.header-top div.row>div.right-nav div.user-info a i {
+        margin-top: 2px;
+    }
+
     div.header-top div.row>div.right-nav div.user-info>a.account span.hidden-sm-down {
         text-overflow: ellipsis;
     }
