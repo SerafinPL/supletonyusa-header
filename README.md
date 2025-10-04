@@ -25,7 +25,7 @@ Visual modification of the website header in the customer PrestaShop theme.
 
 ## Used By
 
-This project is used by the following companies:
+This project is used by the following company:
 
 - [SupletonyUSA](https://supletonyusa.pl/)
 
