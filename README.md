@@ -32,7 +32,7 @@ This project is used by the following companies:
 ## License
 [![AFLv3 License](https://img.shields.io/badge/License-AFL%20v3-green.svg)](https://opensource.org/licenses/)
 
-### Author: [@SerafinPL](https://www.github.com/serafinpl)/[@SerafinWebDev](https://github.com/SerafinWebDev)
+### Author: [@SerafinPL](https://www.github.com/serafinpl) / [@SerafinWebDev](https://github.com/SerafinWebDev)
 ### Author URI: [http://kubakoder.pl](http://kubakoder.pl)
 ##
 
