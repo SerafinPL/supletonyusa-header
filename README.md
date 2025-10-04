@@ -18,8 +18,8 @@ Visual modification of the website header in the customer PrestaShop theme.
 ## About 
 
 **Tech Stack:** 
-![Static Badge](https://img.shields.io/badge/html5-_-ex?style=plastic&logo=html5&logoColor=%23E34F26&color=%23E34F26)
-![Static Badge](https://img.shields.io/badge/css-3-ex?style=plastic&logo=css&logoColor=%23663399&labelColor=dfdfdf&color=%23663399)
+![Static Badge](https://img.shields.io/badge/html-5.0-ex?style=plastic&logo=html5&logoColor=%23E34F26&color=%23E34F26)
+![Static Badge](https://img.shields.io/badge/css-3.0-ex?style=plastic&logo=css&logoColor=%23663399&labelColor=dfdfdf&color=%23663399)
 ![Static Badge](https://img.shields.io/badge/prestashop-9.0-ex?style=plastic&logo=prestashop&logoColor=%23DF0067&labelColor=dfdfdf&color=%23DF0067)
 
 
